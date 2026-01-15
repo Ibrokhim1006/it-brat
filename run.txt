@@ -1,9 +1,0 @@
-chmod +x entrypoint.sh
-
-docker-compose down
-
-docker-compose up --build
-
-
-docker-compose up -d
-sudo service nginx start
